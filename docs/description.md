@@ -15,7 +15,7 @@ OpenAPI доступно по ссылке [https://localhost/api/doc](https://l
 
 
 - Для работы с изображениями используется реализация [src/Image/ImageServiceInterface.php](src/Image/ImageServiceInterface.php),
-которая позволяет работать с различнми хранилищами дынных (local, s3 и т.д.), благодяря компоненту [Filesystem](https://github.com/thephpleague/flysystem) и локальное хранилище, 
+которая позволяет работать с различнми хранилищами дынных (local, s3 и т.д.), благодяря компоненту [Filesystem](https://github.com/thephpleague/flysystem) с локальным хранилищем по умолчанию, 
 но при необходимости может быть легко заменено на `s3`, `ftp` и другие. Манипуляции с изображениями выполняются через библиотеки `Imagine` и `gd`.
 
 
