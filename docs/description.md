@@ -14,7 +14,7 @@ OpenAPI доступно по ссылке [https://localhost/api/doc](https://l
  например [App\Image\Upload\UploadBase64Strategy](../src/Image/Upload/UploadBase64Strategy.php)
 
 
-- Для работы с изображениями используется реализация [../src/Image/ImageServiceInterface.php](src/Image/ImageServiceInterface.php),
+- Для работы с изображениями используется реализация [App\Image\ImageServiceInterface.php](../src/Image/ImageServiceInterface.php),
 которая позволяет работать с различнми хранилищами дынных (local, s3 и т.д.), благодяря компоненту [Filesystem](https://github.com/thephpleague/flysystem) с локальным хранилищем по умолчанию, 
 но при необходимости может быть легко заменено на `s3`, `ftp` и другие. Манипуляции с изображениями выполняются через библиотеки `Imagine` и `gd`.
 
